@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/darkblue1"
+        android:elevation="4dp"
+        android:theme="@style/DotsDarkTheme" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<androidx.fragment.app.FragmentContainerView
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout="@layout/driver_details_dialog" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/driver_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/driver"
+            tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+    </FrameLayout>
+</LinearLayout>

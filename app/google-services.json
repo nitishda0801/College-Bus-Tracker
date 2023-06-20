@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "867878818303",
+    "firebase_url": "https://kkw-bus-tracking-9edea-default-rtdb.firebaseio.com",
+    "project_id": "kkw-bus-tracking-9edea",
+    "storage_bucket": "kkw-bus-tracking-9edea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867878818303:android:d7b2806eb388f10133d7ca",
+        "android_client_info": {
+          "package_name": "com.example.kkwbustracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867878818303-v0dim0en6jnq6bci8scbs1jlki01ftjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPW20kehUv6V4TVwAO7MI_-tpNAY2j1PM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867878818303-v0dim0en6jnq6bci8scbs1jlki01ftjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
